@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.flowt {
+    float: left;
+}
+body {
+    background-color: rgb(219, 232, 241);
+}
+
+header {
+    background-color: white;
+    padding: 0px 30px 30px 30px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+   
+    
+}
+
+#logo {
+    position: relative;
+    top: 15px;
+}
+
+
+
+.nav {
+    margin: 20px;
+    display: inline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(165, 165, 165);
+    
+}
+
+section {
+    float:left;
+    width: 60%;
+    padding: 60px 50px 80px 100px;
+ 
+}
+
+/* .quality {
+   width: 800px;
+   padding: 80px;
+    float:left;
+} */
+
+.bold {
+    font-size: 50px;
+    color: rgb(173, 173, 173);
+    font-weight: 900;
+    padding: 0px 0px 15px 0px;
+}
+
+.copy {
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+}
+
+aside {
+    float:right;
+    width: 20%;
+    padding: 60px;
+}
+
+/* FORM */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #2f7299;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  /* FORM END */
+
+#contactus {
+    color:rgb(173, 173, 173);
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+/* .contact {
+    background-color:rgb(63, 110, 182);
+    float: right;
+} */
+
+.footer {
+    clear: both;
+    background-color: rgb(201, 201, 201);
+    padding: 25px;
+    text-align: center;
+    font-weight: lighter;
+    color:  rgb(124, 124, 124);
+}
